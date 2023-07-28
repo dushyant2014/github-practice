@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques2</title>
+    <style>
+        body{
+            background-color: rgb(34, 34, 34);
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .centre{
+            width:450px;
+            background-color: white;
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .signup-form{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap:20px;
+            padding:30px;
+            
+            
+        }
+        input,select{
+            width:98%;
+            display: block;
+            margin-top:5px;
+            height:27px;
+        }
+        button{
+            width:98%;
+            background-color: #000;
+            padding:10px;
+            color:#fff;
+            border:none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="centre">
+    <div class="signup-form">
+        <h1>Signup</h1>
+        <section>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        </section>
+
+        <section>
+        <label for="batch">Batch:</label>
+        <select name="batch" id="batch">
+            <option value="sigma2.0">Sigma2.0</option>
+            <option value="alpha1.0">Alpha1.0</option>
+            <option value="sigma3.0">Sigma3.0</option>
+            <option value="delta1.0">Delta1.0</option>
+        </select>
+        </section>
+
+        <section>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+        </section>
+
+        <section>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        </section>
+
+        <section>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password">
+        </section>
+
+        <section>
+        <button>Signup</button>
+        </section>
+    </div>
+</div>
+    
+</body>
+</html>

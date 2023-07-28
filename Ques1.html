@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques1</title>
+    <style>
+        body{
+            background-color: rgb(231, 235, 239);
+            padding:0;
+            margin:0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .login-page{
+            margin:100px auto;
+            text-align:center;
+            width:380px;
+            height: 300px;
+            background-color: white;
+            padding: 20px 40px 70px;
+            border-radius:10px;
+            box-shadow: 0 0 40px #cacaca;
+        }
+
+        .login-part{
+            display:flex;
+            flex-direction: column;
+            gap: 40px;            
+        }
+        input{
+            padding-bottom:25px;
+            font-size: 1.07rem;
+            border:none;
+            border-bottom:2px solid #dadada;
+        }
+        .submit{
+            padding:10px;
+            border-radius: 5px;
+            border:none;
+            background-color:rgb(25, 149, 250);
+            color:white;
+            font-size:1.02rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-part">
+            <h1>Login</h1>
+            <input type="text" id="username" class="input" placeholder="Username" name="username" >
+            <input type="password" id="Password" class="input" placeholder="Password" name="Password">
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>
